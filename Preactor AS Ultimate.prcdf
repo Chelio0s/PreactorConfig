@@ -1,0 +1,13 @@
+﻿"/DbConnect:Data Source=.\SQLEXPRESS;Initial Catalog=BelwestITPreactorDB;Integrated Security=True;"
+"/define:PR_NOCOST"
+"/FLEXLM.TYPE:Network"
+"/FLEXLM.SERVER:172.30.6.11"
+"/LICENSE:4947036"
+"/MDF:Preactor.prmdf"
+"/TDF:Preactor.prtdf"
+"/Title:BELWEST AS"
+"/PCO"
+"/DisableLegacyReports"
+"/define:NO_WEB_PUBLISH"
+"/define:AS_PRO"
+
