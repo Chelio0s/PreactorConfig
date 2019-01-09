@@ -555,16 +555,14 @@ Purchased Items:
       DATABASE(Attribute 3(Name))
       DIALOG ONLY
       DIALOG LEVEL 10
-      ALLOW UNSPECIFIED
-      LIST TIPS:
-	Table Measure,-1,STRING,
-      HELPPOPUPID (6681)
+      ALLOW UNSPECIFIED:
+   Table Measure," ",STRING,
+      HELPPOPUPID (6683)
       DATABASE(Measure(Title))
-      DIALOG ONLY
-      DIALOG LEVEL 10
+	  DIALOG FIELD NAME "Measure"
+      EDITOR FIELD NAME "Measure"
       ALLOW UNSPECIFIED
-	  ALLOW NEW
-      LIST TIPS:
+	  ALLOW NEW:
    String Attribute 1,"",STRING,
       FREE FORMAT
       HELPPOPUPID (6682)
