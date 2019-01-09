@@ -557,6 +557,14 @@ Purchased Items:
       DIALOG LEVEL 10
       ALLOW UNSPECIFIED
       LIST TIPS:
+	Table Measure,-1,STRING,
+      HELPPOPUPID (6681)
+      DATABASE(Measure(Title))
+      DIALOG ONLY
+      DIALOG LEVEL 10
+      ALLOW UNSPECIFIED
+	  ALLOW NEW
+      LIST TIPS:
    String Attribute 1,"",STRING,
       FREE FORMAT
       HELPPOPUPID (6682)
