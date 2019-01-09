@@ -2050,6 +2050,13 @@ KCEX,0,INTEGER,PRIMARY KEY:
 Title,0,STRING,
 FREE FORMAT(20);
 
+;≈д. изм
+
+Measure,,0:
+MeasureId,0,INTEGER,PRIMARY KEY:
+Title,0,STRING,
+FREE FORMAT(20);
+
 ;
 ; Secondary Constraints Definition
 ;
