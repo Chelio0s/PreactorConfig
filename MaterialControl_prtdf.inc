@@ -557,7 +557,7 @@ Purchased Items:
       DIALOG LEVEL 10
       ALLOW UNSPECIFIED:
    Table Measure," ",STRING,
-      HELPPOPUPID (6683)
+      HELPPOPUPID (6691)
       DATABASE(Measure(Title))
 	  DIALOG FIELD NAME "Measure"
       EDITOR FIELD NAME "Measure"

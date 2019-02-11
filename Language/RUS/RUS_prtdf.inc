@@ -5,6 +5,7 @@ RUS TRANSLATION TABLE
 "Orders" "Заказы"
 "Supply" "Поставка"
 "Demand" "Заявка"
+"Mesure" "Единицы измерения"
 "Materials" "Материалы"
 "Bill of Materials" "Спецификация"
 "Co-products" "Сопутствующие изделия"
