@@ -200,6 +200,18 @@ Orders,DATASET:
       SUBSTITUTE(-1 -> "Unspecified")
       WEIGHTED
       NO TRACK:
+	  
+	   Table KCEX,-1,STRING,
+      HELPPOPUPID (6681)
+      DATABASE(KCEX(Title))
+      DIALOG ONLY
+      DIALOG LEVEL 10
+      ALLOW UNSPECIFIED
+      LOOKUP UPDATE
+      TRACE VERTICAL AXIS
+      LIST TIPS:
+  
+	  
    Table Attribute 2,-1,STRING,
       HELPPOPUPID (6682)
       DATABASE(Attribute 2(Name))
@@ -1216,6 +1228,14 @@ Products:
       DIALOG LEVEL 10
       ALLOW UNSPECIFIED
       LIST TIPS:
+	  
+	  Table KCEX,-1,STRING,
+	  DATABASE(KCEX(Title))
+	  DIALOG ONLY
+	  DIALOG LEVEL 10
+	  ALLOW UNSPECIFIED
+	  LIST TIPS:
+	  
    Table Attribute 2,-1,STRING,
       HELPPOPUPID (6681)
       DATABASE(Attribute 2(Name))
@@ -2903,6 +2923,16 @@ Changeover Groups:
          HELPPOPUPID (2200)
          AUTO DIMENSION(From,Attribute 5(Name),
          To,Attribute 5(Name))
+         SEQ SETUP:
+		 
+		 KCEX Changeover Time,0,DURATION,
+         HELPPOPUPID (26100)
+         SETUP OVERRIDE MATCH(Orders(Table KCEX))
+         SEQ SETUP:
+      KCEX Changeover Matrix,0,MATRIX	DURATION,
+         HELPPOPUPID (2200)
+         AUTO DIMENSION(From,KCEX(Title),÷
+         To,Attribute 1(Name))
          SEQ SETUP:
 #endif
       Display Sequence Number,1,REAL,
