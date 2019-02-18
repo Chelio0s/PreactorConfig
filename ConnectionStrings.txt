@@ -1,2 +1,0 @@
-Data Source=.\SQLEXPRESS;Initial Catalog=BelwestITPreactorDB;Integrated Security = true;
-Data Source=tcp:172.30.0.24\SQLEXPRESS,1433;Initial Catalog=BelwestITPreactorDB;User ID=kovalkov;Password=12345

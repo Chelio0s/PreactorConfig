@@ -373,8 +373,6 @@ RUS TRANSLATION TABLE
 "Campaign Period" "Период кампании"
 "Number of Campaigns" "Количество кампаний"
 "Grouping Color" "Цвет группировки"
-"KCEX Changeover Time" "Время переключения для цехов"
-"KCEX Changeover Matrix" "Матрица переключения для цехов"
 "Attribute 1 Changeover Time" "Время переключения атрибута 1"
 "Attribute 1 Changeover Matrix" "Матрица переключения атрибута 1"
 "Attribute 2 Changeover Time" "Время переключения атрибута 2"
