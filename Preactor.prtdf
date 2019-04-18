@@ -189,6 +189,7 @@ Orders,DATASET:
       LOOKUP UPDATE
       TRACE VERTICAL AXIS
       LIST TIPS:
+	  
    Table Attribute 1 Rank,-1,INTEGER,
       HELPPOPUPID (560)
       DATABASE(Attribute 1(Rank))
@@ -200,6 +201,12 @@ Orders,DATASET:
       SUBSTITUTE(-1 -> "Unspecified")
       WEIGHTED
       NO TRACK:
+	  
+
+	  
+
+	  
+	  
    Table Attribute 2,-1,STRING,
       HELPPOPUPID (6682)
       DATABASE(Attribute 2(Name))
@@ -1216,6 +1223,13 @@ Products:
       DIALOG LEVEL 10
       ALLOW UNSPECIFIED
       LIST TIPS:
+    Kcextitle,-1,STRING,
+      HELPPOPUPID (6681)
+      DATABASE(Resources(Kcextitle))
+      DIALOG ONLY
+      DIALOG LEVEL 10
+      ALLOW UNSPECIFIED
+      LIST TIPS:
    Table Attribute 2,-1,STRING,
       HELPPOPUPID (6681)
       DATABASE(Attribute 2(Name))
@@ -1670,6 +1684,13 @@ Products:
    External Id,"",STRING,
       FREE FORMAT
       HIDDEN:
+Proff,"",STRING,
+      FREE FORMAT
+      HIDDEN:
+ProffSAP,"",STRING,
+      FREE FORMAT
+	  ALLOW UNSPECIFIED
+      HIDDEN:
 	  ART,"",STRING, FREE FORMAT
 DIALOG FIELD NAME "Артикул"
 EDITOR FIELD NAME "Артикул":
@@ -1902,6 +1923,12 @@ Resources:
       HELPPOPUPID (2250)
       ALLOW UNSPECIFIED
       SUBSTITUTE(-1 -> "Unspecified")
+      DIALOG ONLY
+      DIALOG LEVEL 20:
+   Kcextitle,0, STRING,
+   DATABASE(KCEX(Title))
+   INHERIT FROM PARENT
+   ALLOW NEW
       DIALOG ONLY
       DIALOG LEVEL 20:
    Display Sequence Number,1,REAL,
@@ -2184,7 +2211,11 @@ Display Sequence Number,1,REAL,
       HIDDEN:
    External Id,"",STRING,
       FREE FORMAT
-      HIDDEN;
+      HIDDEN:
+Code Profs,"",STRING,
+	  FREE FORMAT,
+      ALLOW UNSPECIFIED:
+Razrad,-1,INTEGER;
 ;
 ;	Secondary Constraint Groups
 ;	 
